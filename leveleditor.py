@@ -161,7 +161,7 @@ class ControlPanel(Panel):
                     (cmd + "-W", "Close", editor.closeEditor),
                     ("", "", lambda: None),
 
-                    (cmd + "G", "Goto", editor.showGotoPanel),
+                    (cmd + "-G", "Goto", editor.showGotoPanel),
                     (cmd + "-I", "World Info", editor.showWorldInfo),
                     (cmd + "-Z", "Undo", editor.undo),
                     (cmd + "-A", "Select All", editor.selectAll),
