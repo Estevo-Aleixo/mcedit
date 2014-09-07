@@ -160,8 +160,6 @@ class ControlPanel(Panel):
                     (cmd + "-S", "Save", editor.saveFile),
                     (cmd + "-R", "Reload", editor.reload),
                     (cmd + "-W", "Close", editor.closeEditor),
-                    ("", "", lambda: None),
-
                     (cmd + "-G", "Goto", editor.showGotoPanel),
                     (cmd + "-I", "World Info", editor.showWorldInfo),
                     (cmd + "-Z", "Undo", editor.undo),
